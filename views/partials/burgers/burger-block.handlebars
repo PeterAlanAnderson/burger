@@ -1,0 +1,11 @@
+<li>
+	<div class="card col s10 color grey lighten-2">
+		<h4>{{burger_name}}</h4>
+	
+	{{#unless devoured}}
+	<button class="change-devoured btn color red" data-id="{{id}}" data-newDevour="{{devour}}">
+		DEVOUR
+	</button>
+	{{/unless}}
+	</div>
+</li>
